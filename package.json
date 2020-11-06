@@ -1,0 +1,20 @@
+{
+  "name": "23-modules-eslint-webpack",
+  "version": "1.0.0",
+  "description": "JavaScript Tooling and Workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:dev": "webpack serve --mode development --env development",
+    "build:prod": "webpack --config webpack.config.prod.js"
+  },
+  "author": "Yidah Aguirre",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "webpack": "4.44.2",
+    "webpack-cli": "4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
